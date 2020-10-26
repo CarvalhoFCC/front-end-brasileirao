@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Sora", sans-serif;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	background-color: #2b7148;
+	color: white;
+	height: 4.5em;
+}
+
+.center {
+	display: flex;
+	justify-content: space-between;
+	width: 75em;
+	align-items: center;
+}
+
+.formLogin {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 41em;
+}
+
+.formLogin input {
+    appearance: none;
+    border: 1px solid transparent;
+    padding: 0.3em;
+	border-radius: 0.3em;
+	width: 15em;
+}
+
+.login button {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 0.3em;
+    height: 2em;
+    color: white;
+    background-color: #04375c;
+	padding: 0.3em 1.5em;
+	font-weight: bold;
+    min-width: 9ch;
+}
+
+.error {
+	background-color: hsl(0, 100%, 91%);
+}
+
+#email {
+	margin-left: 0.5em;
+}
+
+#password {
+	margin-left: 0.5em;
+}
+
+/* 
+*	BODY
+*/
+
+.body {
+	display: flex;
+	justify-content: center;
+	background-color: rgb(236, 235, 220);
+	min-height: 100vh;	
+	padding-top: 1.9em;
+}
+
+.centerBody {
+	display: flex;
+	justify-content: space-between;
+	width: 75em;
+	flex-wrap: wrap;
+}
+
+/*
+*	ROUND
+*/
+.roundHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgb(138, 185, 157);
+	height: 4em;
+	width: 26em;
+	padding: 0.35em;
+}
+
+.roundHeader button {
+	background-color: transparent;
+	border: none;
+}
+
+.roundBody button {
+	border: 0;
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    padding: 0.2em;
+    background-color: rgb(138, 185, 157);
+}
+
+.roundBody td {
+	padding: 0.25em 0.2em;
+}
+
+.homeTeam {
+	text-align: right;
+}
+
+.awayTeam {
+	text-align: left;
+}
+
+.goals {
+	font-size: 1.3em;
+    width: 2.666ch;
+    height: 2em;
+    text-align: center;
+}
+
+.roundBody input {
+	width: 3ch;
+}
+
+.roundBody {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+}
+
+/*
+*	TABLE
+*/
+.table td, table th {
+	padding: 0.25em 0.9em;
+	vertical-align: bottom;
+}
+
+.table td {
+	text-align: right;
+}
+
+.table th {
+	text-align: left;
+}
+
+.tableHeader {
+	background-color: rgb(138, 185, 157);
+	border-collapse: collapse;
+}
+
+.tableHeader button {
+	background-color: transparent;
+    border: 0;
+    border-radius: 50%;
+    width: 1.0em;
+    height: 1.0em;
+}
+
+.tableHeader img {
+	width: 1.2em;
+    height: 1.2em;
+}
+
+tbody {
+	background-color: white;
+}
