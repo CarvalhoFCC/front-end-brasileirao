@@ -1,6 +1,5 @@
 import React from 'react';
 import { Images } from '../images/Images';
-// import { Table } from "./Table";
 
 
 const fetchJson = (url) => fetch(url).then((res) => res.json());
